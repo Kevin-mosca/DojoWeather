@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1> Dojo Weather</h1>
+            <a href="#" onclick="city()"> Burbank </a>
+            <a href="#" onclick="city()"> Chicago </a>
+            <a href="#" onclick="city()"> Dallas </a>
+        </div>
+        <div class="header">
+            <h1> San Jose</h1>
+            <div class="headerright">
+                  <label for="temperature" style="font-size: smaller; margin-right: 10px;"> Show temperature in </label>
+                  <select name="temperature" id="temperature" onchange="changetext()">
+                      <option value="celsius">°C</option>
+                      <option value="Fahrenheit" onclick="changetext()"   >°F</option>
+                  </select>
+            </div>
+        </div>
+        <div class="main">
+            <div class="today">
+                <h1 style="font-size:x-large;">Today</h1>
+                <img src="assets/some_rain.png" alt="rain" class="rain">
+                <p style="margin-top: 20px;"> some rain</p>
+                <div class="numbers">
+                    <p id=temperA style="color: red; margin-right: 20px;">23.9° </p>
+                    <p style="color: blue;" id=temper > 18.3°</p>
+                </div>
+
+            </div>
+            <div class="tomorrow">
+                <h1 style="font-size:x-large;">Tomorrow</h1>
+                <img src="assets/some_sun.png" alt="rain" class="sun">
+                <p style="margin-top: 20px;"> some sun</p>
+                <div class="numbers">
+                    <p style="color: red; margin-right: 20px;" id=temper >26.7° </p>
+                    <p style="color: blue;" id=temper > 18.9°</p>
+                </div>
+            </div>
+            <div class="friday">
+                <h1 style="font-size:x-large;">Friday</h1>
+                <img src="assets/some_clouds.png" alt="rain" class="clouds">
+                <p style="margin-top: 20px;"> some clouds</p>
+                <div class="numbers">
+                    <p style="color: red; margin-right: 20px;" id=temper >20.6° </p>
+                    <p style="color: blue;" id=temper > 16.6°</p>
+                </div>
+            </div>
+            <div class="saturday">
+                <h1 style="font-size:x-large;">Saturday</h1>
+                <img src="assets/some_sun.png" alt="rain" class="sun">
+                <p style="margin-top: 20px;" id=temper> some sun</p>
+                <div class="numbers">
+                    <p style="color: red; margin-right: 20px;">25.6° </p>
+                    <p style="color: blue;" id=temper > 21.1°</p>
+                </div>
+            </div>
+        </div>
+        <div class="alert">
+            <img src="assets/cookie.png" alt="cookie" class="cookie">
+            <div>
+            <h2>Stop Cookie Time!</h2>
+            <p> We use cookies (sadley not the edible ones) to personalize content and ads, 
+                to provide social media features and to analyse our traffic. <a href="#"> Read more...</a></p>
+            </div>
+            <button class="btn" onclick="this.parentElement.style.display='none';">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

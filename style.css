@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    background-color: rgb(93, 176, 244);
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.nav h1{
+    margin-right: 150px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 20px;
+    height: 100px;
+    width: 900px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border-bottom: 2px solid black;
+}
+.headerright{
+    margin-left: 450px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    width: 307px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#temperature{
+    background-color: antiquewhite;
+    padding: 30px 40px;
+    width: 45px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    justify-content: space-between;
+    height: 360px;
+    width: 900px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 0px;
+}
+.today{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align:center;
+    align-items: center;
+    margin-top: 30px;
+    height: 300px;
+    width: 180px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: lightgrey;
+    padding: 10px;
+}
+.tomorrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align:center;
+    align-items: center;
+    margin-top: 30px;
+    height: 300px;
+    width: 180px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: lightgrey;
+    padding: 10px;
+}
+.friday{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align:center;
+    align-items: center;
+    margin-top: 30px;
+    height: 300px;
+    width: 180px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: lightgrey;
+    padding: 10px;
+}
+.saturday{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align:center;
+    align-items: center;
+    margin-top: 30px;
+    height: 300px;
+    width: 180px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: lightgrey;
+    padding: 10px;
+}
+.rain,.sun,.clouds{
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    height: 60px;
+    width: 160px;
+    margin-top: 10px;
+}
+.numbers p{
+    font-size: 20px;
+}
+.alert{
+    position: fixed;
+    bottom: 0px;
+    padding: 5px;
+    display: flex; 
+    justify-content: flex-start;
+    border: 2px solid black;
+    height: 90px;
+    width: 888px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    text-align:start;
+    background-color: white;
+}
+.cookie{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+}
+.btn{
+margin: 30px;
+margin-left: 40px;
+width: 100px;
+height: 30px;
+background-color: rgb(93, 176, 244);
+box-shadow: 4px 4px 4px black;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
